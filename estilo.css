@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+
+a {
+    color: var(--bs-blue);
+}
+
+
+
+.container{
+    width: 110%;
+    margin: 0px auto;
+    border: 1px solid aquamarine;
+
+}
+
+header{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav{
+    background-color: azure;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+
+
+.article{
+display: flex;
+
+justify-content: flex-end;
+
+}
